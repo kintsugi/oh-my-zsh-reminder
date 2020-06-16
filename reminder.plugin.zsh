@@ -1,8 +1,6 @@
 TODO_SAVE_TASKS_FILE="$HOME/.todo.sav"
 TODO_SAVE_COLOR_FILE="$HOME/.todo_color.sav"
 
-# Allow to use colors
-colors
 typeset -T -x -g TODO_TASKS todo_tasks
 typeset -T -x -g TODO_TASKS_COLORS todo_tasks_colors
 typeset -a -x -g todo_colors
